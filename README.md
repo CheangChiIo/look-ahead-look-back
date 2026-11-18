@@ -11,7 +11,8 @@ This is a static website. No build step or web framework is required.
 - Edit `index.html` for authors, text, captions, links, and section content.
 - Edit `styles.css` for layout, colors, and responsive styling.
 - Edit `app.js` for video behavior, tabs, image enlargement, and data tables.
-- Replace a media file while retaining its filename to update its content.
+- Run `python generate_sequences.py` after replacing a source recording to regenerate its six-frame desktop and mobile sequences (requires Pillow and FFmpeg or imageio-ffmpeg). Frame selection and image dimensions are recorded in `sequences.json`.
+- The virtual-gripper illustration in the method section retains its video player.
 - When result values change, update `results.json`, regenerate the corresponding figures with `generate_results.py` (requires Matplotlib), and update the headline metrics, task badges, effect-size prose, and figure alt text in `index.html` together.
 - Replace `paper.pdf` or `supplementary.pdf` to update the public reading copies.
 
@@ -21,7 +22,7 @@ For local preview, run `python -m http.server 8765` in this directory and open `
 
 ## Media and results
 
-The page uses recorded human and robot videos, source photographs from the research figures, and figures from the manuscript. The ordered banana sequences are keyframes, with the method and outcome labels retained. Overview playback speed is indicated beside the video; recorded clips appear in the task gallery. The no-context comparison retains the first 36 seconds.
+The page presents recorded human and robot interactions as six-frame chronological image sequences, with frame numbers. Read each sequence left to right, then top to bottom; click to enlarge. The banana configuration examples retain the original research-figure keyframes. The no-context comparison uses only the first 36 seconds. Only the method-section virtual-gripper illustration remains a video. Original recordings are retained as regeneration inputs.
 
 Reported success rates and evaluation conditions are included alongside the figures and in `results.json`.
 

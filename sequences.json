@@ -1,0 +1,246 @@
+{
+  "annotated-demo": {
+    "source_video": "annotated-demo.mp4",
+    "duration_seconds": 6.27,
+    "frame_times_seconds": [
+      0.0,
+      1.234,
+      2.468,
+      3.702,
+      4.936,
+      6.17
+    ],
+    "order": "left to right, then top to bottom",
+    "images": {
+      "annotated-demo-sequence.webp": [
+        1608,
+        708
+      ],
+      "annotated-demo-sequence-mobile.webp": [
+        1076,
+        1056
+      ]
+    }
+  },
+  "bottle-icl": {
+    "source_video": "bottle-icl.mp4",
+    "duration_seconds": 36.23,
+    "frame_times_seconds": [
+      0.0,
+      7.226,
+      14.452,
+      21.678,
+      28.904,
+      36.13
+    ],
+    "order": "left to right, then top to bottom",
+    "images": {
+      "bottle-icl-sequence.webp": [
+        1608,
+        708
+      ],
+      "bottle-icl-sequence-mobile.webp": [
+        1076,
+        1056
+      ]
+    }
+  },
+  "without-icl": {
+    "source_video": "without-icl.mp4",
+    "duration_seconds": 36.0,
+    "frame_times_seconds": [
+      0.0,
+      7.18,
+      14.36,
+      21.54,
+      28.72,
+      35.9
+    ],
+    "order": "left to right, then top to bottom",
+    "images": {
+      "without-icl-sequence.webp": [
+        1608,
+        708
+      ],
+      "without-icl-sequence-mobile.webp": [
+        1076,
+        1056
+      ]
+    }
+  },
+  "bottle-human": {
+    "source_video": "bottle-human.mp4",
+    "duration_seconds": 6.07,
+    "frame_times_seconds": [
+      0.0,
+      1.194,
+      2.388,
+      3.582,
+      4.776,
+      5.97
+    ],
+    "order": "left to right, then top to bottom",
+    "images": {
+      "bottle-human-sequence.webp": [
+        1608,
+        904
+      ],
+      "bottle-human-sequence-mobile.webp": [
+        1076,
+        1350
+      ]
+    }
+  },
+  "bottle-robot": {
+    "source_video": "bottle-robot.mp4",
+    "duration_seconds": 20.27,
+    "frame_times_seconds": [
+      0.0,
+      4.034,
+      8.068,
+      12.102,
+      16.136,
+      20.17
+    ],
+    "order": "left to right, then top to bottom",
+    "images": {
+      "bottle-robot-sequence.webp": [
+        1608,
+        904
+      ],
+      "bottle-robot-sequence-mobile.webp": [
+        1076,
+        1350
+      ]
+    }
+  },
+  "banana-human": {
+    "source_video": "banana-human.mp4",
+    "duration_seconds": 7.5,
+    "frame_times_seconds": [
+      0.0,
+      1.48,
+      2.96,
+      4.44,
+      5.92,
+      7.4
+    ],
+    "order": "left to right, then top to bottom",
+    "images": {
+      "banana-human-sequence.webp": [
+        1608,
+        904
+      ],
+      "banana-human-sequence-mobile.webp": [
+        1076,
+        1350
+      ]
+    }
+  },
+  "cup-human": {
+    "source_video": "cup-human.mp4",
+    "duration_seconds": 10.37,
+    "frame_times_seconds": [
+      0.0,
+      2.054,
+      4.108,
+      6.162,
+      8.216,
+      10.27
+    ],
+    "order": "left to right, then top to bottom",
+    "images": {
+      "cup-human-sequence.webp": [
+        1608,
+        904
+      ],
+      "cup-human-sequence-mobile.webp": [
+        1076,
+        1350
+      ]
+    }
+  },
+  "cup-robot": {
+    "source_video": "cup-robot.mp4",
+    "duration_seconds": 23.67,
+    "frame_times_seconds": [
+      0.0,
+      4.714,
+      9.428,
+      14.142,
+      18.856,
+      23.57
+    ],
+    "order": "left to right, then top to bottom",
+    "images": {
+      "cup-robot-sequence.webp": [
+        1608,
+        904
+      ],
+      "cup-robot-sequence-mobile.webp": [
+        1076,
+        1350
+      ]
+    }
+  },
+  "basket-human": {
+    "source_video": "basket-human.mp4",
+    "duration_seconds": 6.17,
+    "frame_times_seconds": [
+      0.0,
+      1.214,
+      2.428,
+      3.642,
+      4.856,
+      6.07
+    ],
+    "order": "left to right, then top to bottom",
+    "images": {
+      "basket-human-sequence.webp": [
+        1608,
+        904
+      ],
+      "basket-human-sequence-mobile.webp": [
+        1076,
+        1350
+      ]
+    }
+  },
+  "basket-robot": {
+    "source_video": "basket-robot.mp4",
+    "duration_seconds": 15.43,
+    "frame_times_seconds": [
+      0.0,
+      3.066,
+      6.132,
+      9.198,
+      12.264,
+      15.33
+    ],
+    "order": "left to right, then top to bottom",
+    "images": {
+      "basket-robot-sequence.webp": [
+        1608,
+        904
+      ],
+      "basket-robot-sequence-mobile.webp": [
+        1076,
+        1350
+      ]
+    }
+  },
+  "banana-orientation": {
+    "source_figure": "banana-orientation-success.webp",
+    "order": "original figure order; left to right, then top to bottom",
+    "images": {
+      "banana-orientation-sequence.webp": [
+        1608,
+        904
+      ],
+      "banana-orientation-sequence-mobile.webp": [
+        1076,
+        1350
+      ]
+    }
+  }
+}

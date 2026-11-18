@@ -1,23 +1,5 @@
 "use strict";
 
-const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
-const overview = [...document.querySelectorAll(".overview-video")];
-const reelToggle = document.getElementById("reel-toggle");
-let reelPaused = reducedMotion.matches;
-const visibleOverview = new Set();
-document.getElementById("overview-robot").playbackRate = 2;
-
-function updateReelButton() {
-  reelToggle.textContent = reelPaused ? "Play ▶" : "Pause Ⅱ";
-  reelToggle.setAttribute("aria-label", reelPaused ? "Play overview videos" : "Pause overview videos");
-}
-function syncReelPlayback() {
-  overview.forEach(video => {
-    if (!reelPaused && !document.hidden && visibleOverview.has(video)) video.play().catch(() => {});
-    else video.pause();
-  });
-  updateReelButton();
-}
 function loadVideos(container) {
   container.querySelectorAll("video[data-src]").forEach(video => {
     if (!video.getAttribute("src")) {
@@ -27,12 +9,6 @@ function loadVideos(container) {
     }
   });
 }
-reelToggle.addEventListener("click", () => {
-  reelPaused = !reelPaused;
-  syncReelPlayback();
-});
-updateReelButton();
-
 document.querySelectorAll("[data-tabs]").forEach(list => {
   const tabs = [...list.querySelectorAll('[role="tab"]')];
   function activate(selected, focus = false) {
@@ -76,24 +52,12 @@ const mediaObserver = new IntersectionObserver(entries => {
         target.load();
       }
     }
-    if (target.classList.contains("overview-video")) {
-      if (isIntersecting) visibleOverview.add(target);
-      else visibleOverview.delete(target);
-    } else if (!isIntersecting) target.pause();
+    if (!isIntersecting) target.pause();
   });
-  syncReelPlayback();
 }, {threshold: .15});
 document.querySelectorAll("video").forEach(video => mediaObserver.observe(video));
 document.addEventListener("visibilitychange", () => {
   if (document.hidden) document.querySelectorAll("video").forEach(video => video.pause());
-  else syncReelPlayback();
-});
-reducedMotion.addEventListener("change", event => {
-  if (event.matches) {
-    reelPaused = true;
-    overview.forEach(video => video.pause());
-    updateReelButton();
-  }
 });
 
 const imageDialog = document.getElementById("image-dialog");
