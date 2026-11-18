@@ -1,0 +1,39 @@
+{
+  "source": "Main manuscript Tables 1-4 and Supplementary Tables S4 and S6",
+  "metric": "Task success (%)",
+  "methods": ["Mimic-Video", "SimpleICL", "Zero-WAM", "Ours"],
+  "benchmarks": {
+    "libero": {
+      "name": "Held-out LIBERO",
+      "columns": ["Spatial", "Object", "Goal", "Long", "Average"],
+      "rows": [[42.0,29.3,24.7,16.7,28.2],[66.0,57.3,60.0,43.3,56.7],[68.7,61.3,58.7,46.0,58.7],[71.3,70.7,68.0,61.3,67.8]],
+      "protocol": "12 held-out tasks across four suites; 50 shared initial states per task; equal task weighting. Benchmark-specific adaptation uses the same held-out task boundaries."
+    },
+    "simpler": {
+      "name": "SIMPLER-WidowX",
+      "columns": ["Standard", "Extended", "Dual-goal", "Sequential", "Overall"],
+      "rows": [[49.0,9.4,2.1,0.0,19.8],[60.4,47.9,45.8,37.5,50.0],[67.7,50.0,47.9,35.4,53.1],[75.0,59.4,54.2,50.0,62.2]],
+      "protocol": "12 tasks: four standard, four extended, two dual-goal, and two sequential; 24 shared initial states per task. Overall weights all 12 tasks equally."
+    },
+    "physical": {
+      "name": "Physical robot",
+      "columns": ["Bottle", "Banana", "Cups", "Basket", "Average"],
+      "rows": [[34,30,26,24,28.5],[56,50,58,66,57.5],[64,56,58,72,62.5],[70,66,64,80,70.0]],
+      "protocol": "PiPER-X; four tasks, five human demonstrations and ten initial configurations per task, giving 50 trials per task and method. The same demonstration-configuration assignments are shared by video-conditioned methods."
+    }
+  },
+  "ablations": {
+    "variants": ["Base WAM", "General only", "Instance only", "Without preplay", "Without gripper annotation", "Ours"],
+    "success": [16.7,32.7,44.0,51.3,35.3,61.3],
+    "task_ids": [4,7,8],
+    "per_task": [[20,16,14],[32,36,30],[46,46,40],[54,52,48],[38,34,34],[62,64,58]],
+    "protocol": "Complete-task evaluation on the three held-out LIBERO-Long tasks; 50 rollouts per task and variant."
+  },
+  "stages": {
+    "names": ["Grasp object 1", "Place object 1", "Grasp object 2", "Joint-goal completion"],
+    "without_preplay": [78,71,68,62],
+    "ours": [84,79,86,81],
+    "protocol": "Independent expert-initialized continuations. Each stage uses 50 matched starts per task across three held-out LIBERO-Long tasks (150 continuations per stage and method)."
+  },
+  "seen_tasks": {"base_wam": 93.2, "ours": 94.5, "protocol": "28 training-task identities under new initial conditions; 20 shared initial states per task."}
+}
