@@ -168,7 +168,7 @@ th:first-child, td:first-child { text-align: left; }
 tbody th { color: var(--ink); min-width: 120px; }
 tr.ours-row { background: var(--accent-soft); font-weight: 700; }
 .analysis-grid { display: grid; grid-template-columns: 1fr; gap: 32px; }
-.analysis-panel { display: grid; grid-template-columns: .8fr 1.65fr; column-gap: 38px; align-items: start; min-width: 0; padding: 26px 0 0; border-top: 1px solid #cbd4dd; }
+.analysis-panel { display: grid; grid-template-columns: .8fr 1.65fr; grid-template-rows: min-content min-content 1fr auto; column-gap: 38px; align-items: start; min-width: 0; padding: 26px 0 0; border-top: 1px solid #cbd4dd; }
 .analysis-panel h3 { grid-column: 1; grid-row: 1; font-size: 1.4375rem; }
 .analysis-panel > p:not(.caption) { grid-column: 1; grid-row: 2; font-size: 1.0625rem; color: var(--muted); margin-bottom: 18px; }
 .analysis-panel > .chart-zoom { grid-column: 2; grid-row: 1 / span 3; align-self: center; width: 100%; height: auto; }
