@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="324pt" height="324pt" viewBox="0 0 324 324" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Look Ahead to Look Back research project</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 324 
+L 324 324 
+L 324 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 102.216021 275.499291 
+L 306.819369 275.499291 
+L 306.819369 3.00024 
+L 102.216021 3.00024 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 102.216021 275.499291 
+L 102.216021 3.00024 
+" clip-path="url(#pfdf9f9a45d)" style="fill: none; stroke-dasharray: 2.59,1.12; stroke-dashoffset: 0; stroke: #dce3ea; stroke-width: 0.7"/>
+     </g>
+     <g id="line2d_2"/>
+     <g id="text_1">
+      <text style="fill: #445261; font: 17px 'Arial'; text-anchor: middle" x="102.216021" y="293.667573" transform="rotate(-0 102.216021 293.667573)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 204.517695 275.499291 
+L 204.517695 3.00024 
+" clip-path="url(#pfdf9f9a45d)" style="fill: none; stroke-dasharray: 2.59,1.12; stroke-dashoffset: 0; stroke: #dce3ea; stroke-width: 0.7"/>
+     </g>
+     <g id="line2d_4"/>
+     <g id="text_2">
+      <text style="fill: #445261; font: 17px 'Arial'; text-anchor: middle" x="204.517695" y="293.667573" transform="rotate(-0 204.517695 293.667573)">50</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 306.819369 275.499291 
+L 306.819369 3.00024 
+" clip-path="url(#pfdf9f9a45d)" style="fill: none; stroke-dasharray: 2.59,1.12; stroke-dashoffset: 0; stroke: #dce3ea; stroke-width: 0.7"/>
+     </g>
+     <g id="line2d_6"/>
+     <g id="text_3">
+      <text style="fill: #445261; font: 17px 'Arial'; text-anchor: middle" x="306.819369" y="293.667573" transform="rotate(-0 306.819369 293.667573)">100</text>
+     </g>
+    </g>
+    <g id="text_4">
+     <text style="fill: #344454; font: 17px 'Arial'; text-anchor: middle" x="204.517695" y="317.421791" transform="rotate(-0 204.517695 317.421791)">Task success (%)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_7"/>
+     <g id="text_5">
+      <text style="fill: #20262d; font: 17px 'Arial'; text-anchor: end" x="96.216021" y="40.660775" transform="rotate(-0 96.216021 40.660775)">Mimic-Video</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_8"/>
+     <g id="text_6">
+      <text style="fill: #20262d; font: 17px 'Arial'; text-anchor: end" x="96.216021" y="110.546456" transform="rotate(-0 96.216021 110.546456)">SimpleICL</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_9"/>
+     <g id="text_7">
+      <text style="fill: #20262d; font: 17px 'Arial'; text-anchor: end" x="96.216021" y="180.22495" transform="rotate(-0 96.216021 180.22495)">Zero-WAM</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_10"/>
+     <g id="text_8">
+      <text style="fill: #20262d; font: 700 17px 'Arial'; text-anchor: end" x="96.216021" y="250.007037" transform="rotate(-0 96.216021 250.007037)">Ours</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 102.216021 15.386561 
+L 159.914165 15.386561 
+L 159.914165 53.766709 
+L 102.216021 53.766709 
+z
+" clip-path="url(#pfdf9f9a45d)" style="fill: #aeb8c5; stroke: #65758a; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 102.216021 85.168648 
+L 218.22612 85.168648 
+L 218.22612 123.548796 
+L 102.216021 123.548796 
+z
+" clip-path="url(#pfdf9f9a45d)" style="fill: #9fb8ce; stroke: #65758a; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 102.216021 154.950735 
+L 222.318187 154.950735 
+L 222.318187 193.330883 
+L 102.216021 193.330883 
+z
+" clip-path="url(#pfdf9f9a45d)" style="fill: #b3a9c4; stroke: #65758a; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 102.216021 224.732823 
+L 240.937091 224.732823 
+L 240.937091 263.112971 
+L 102.216021 263.112971 
+z
+" clip-path="url(#pfdf9f9a45d)" style="fill: #3f71ad; stroke: #65758a; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 102.216021 275.499291 
+L 306.819369 275.499291 
+" style="fill: none; stroke: #596570; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_9">
+    <text style="fill: #20262d; font: 17px 'Arial'; text-anchor: start" x="162.778612" y="38.9714" transform="rotate(-0 162.778612 38.9714)">28.2%</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #20262d; font: 17px 'Arial'; text-anchor: start" x="221.090567" y="108.753488" transform="rotate(-0 221.090567 108.753488)">56.7%</text>
+   </g>
+   <g id="text_11">
+    <text style="fill: #20262d; font: 17px 'Arial'; text-anchor: start" x="225.182633" y="178.535575" transform="rotate(-0 225.182633 178.535575)">58.7%</text>
+   </g>
+   <g id="text_12">
+    <text style="fill: #20262d; font: 700 17px 'Arial'; text-anchor: start" x="243.801538" y="248.329615" transform="rotate(-0 243.801538 248.329615)">67.8%</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pfdf9f9a45d">
+   <rect x="102.216021" y="3.00024" width="204.603348" height="272.499051"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -9,11 +9,11 @@ Project website for **Selective Context Acquisition from Human Videos for World-
 This is a static website. No build step or web framework is required.
 
 - Edit `index.html` for authors, text, captions, links, and section content.
-- Edit `styles.css` for layout, colors, and responsive styling.
+- Edit `styles.css` for layout, colors, and responsive styling. Page text and chart labels use Arial/Helvetica; body text and controls use relative font sizes.
 - Edit `app.js` for video behavior, tabs, image enlargement, and data tables.
 - Run `python generate_sequences.py` after replacing a source recording to regenerate its six-frame desktop and mobile sequences (requires Pillow and FFmpeg or imageio-ffmpeg). Frame selection and image dimensions are recorded in `sequences.json`.
 - The virtual-gripper illustration in the method section retains its video player.
-- When result values change, update `results.json`, regenerate the corresponding figures with `generate_results.py` (requires Matplotlib), and update the headline metrics, task badges, effect-size prose, and figure alt text in `index.html` together.
+- When result values change, update `results.json`, regenerate both desktop and mobile figures with `generate_results.py` (requires Matplotlib), and update the headline metrics, task badges, effect-size prose, and figure alt text in `index.html` together.
 - Replace `paper.pdf` or `supplementary.pdf` to update the public reading copies.
 
 You can edit text files directly in GitHub's web editor. Commit changes to the `main` branch. GitHub Pages publishes from the repository root and updates the website automatically.
